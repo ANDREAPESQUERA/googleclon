@@ -1,0 +1,160 @@
+*{
+
+    background-color: white;
+}
+
+header nav {
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+.nav-right-section{
+
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right-section a{
+    margin-right: 25px;
+    color:black;
+}
+
+ul{
+    list-style:none;
+
+}
+.menu-icon{
+    background-image: url("https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png");
+width: 30px;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.nav-right-section img{
+
+    margin-left: 10px;
+    border-radius: 60px;
+    width: 30px;
+
+}
+
+main{
+    margin: 150px;
+    text-align: center;
+}
+
+.main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px
+}
+
+.main-input-container{
+    width: 525px;
+    border: 1px solid;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-input-container input {
+
+    border: none;
+    width: 530px;
+    height: 40px;
+    outline: none;
+}
+
+
+.main-input-container input:hover{
+    box-shadow: 0 1px 6px 0px #22212447;
+    border: color #dfe1ed S;;
+}
+
+.search-icon{
+
+    background-image: url("https://seekicon.com/free-icon-download/search_20.svg");
+width: 15px;
+height: 15px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+padding-left: 8%;
+}
+
+.micro-icon {
+
+ background-image: url("data:image/png;base64,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g");   
+ width: 15px;
+ height: 15px;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ padding-right: 8%;
+}
+
+.cam-icon {
+    background-image: url("https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens:2021.svg");   
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-right: 8%;
+
+}
+.main-buttons div{
+    display: inline-block;
+}
+    .main-buttons button{
+        border: none;
+        height: 36px;
+        background-color: #f8f9fa;
+        margin-right: 10px;
+        color: #3c4043;
+        border-radius: 2px solid #f8f9fa;
+    }
+    .main-buttons button:hover{
+
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+        border: 1px solid #dadce0;
+    }
+
+    /*Estilo footer*/
+    footer{
+        background-color: #f2f2f2;
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        font-size: 13px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        border-top: 1px solid #e4e4e4;
+        bottom: 2%;
+        padding: 10px;
+    }
+
+    .footer-left{
+justify-content: right;
+
+    }
+
+   footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+
+   }
+
+   footer ul li a{
+color: #70757a;
+margin: 10px;
+   }
+
